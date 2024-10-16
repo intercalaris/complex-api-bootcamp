@@ -1,0 +1,105 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  height: 15%;
+  width: 70%;
+  border-top: 10px solid #F2F2F2;
+  border-bottom: 10px solid #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C73F2;
+}
+
+main {
+  height: 85%;
+  width: 70%;
+  background-color: #5C73F2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-box {
+  margin-bottom: 2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #F2F2F2;
+}
+
+main h2 {
+  font-size: 3rem;
+  margin: 3rem 0 1.5rem 0;
+  font-weight: 600;
+}
+
+input {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.box {
+  width: 80%;
+  margin: 1rem;
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h3 {
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+}
+
+.box p {
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+}
+
+.box input {
+  display: block;
+}
+
+.box div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

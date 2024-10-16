@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is an application that will help you learn spanish and german vocabulary at the same time">
+	<meta name="keywords" content="vocabulary, german, spanish">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Vocabulary Builder</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Vocabulary Builder</h1>
+	</header>
+	<main>
+		<h2>Look up a word: </h2>
+
+		<div class="first-box">
+			<input type="text" id="word-input">
+			<input type="button" id="search-button" value="Search">
+			<input type="button" id="random-word-button" value="Word Finder">
+		</div>
+
+		<div class="box">
+			<h3>Word: <span id="word-name"></span></h3>
+			<p id="word-definition">Definition: </p>
+		</div>
+		
+		<div class="box">
+			<p id="german-translation">?</p>
+			<p id="spanish-translation">?</p>
+		</div>
+
+		<div class="box">
+			<div>
+				<input type="button" value="Show in German" id="show-german-word">
+			</div>
+			<div>
+				<input type="button" value="Show in Spanish" id="show-spanish-word">
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
